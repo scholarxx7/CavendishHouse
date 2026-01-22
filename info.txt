@@ -22,6 +22,8 @@ Notable Alumni of Patna Science College
 8. **Tathagat Avatar Tulsi** - Physicist and Child Prodigy.
 9. **Ravindra Kumar Sinha** -  "Dolphin Man of India", Vice-Chancellor.
 10. **Upendra Kushwaha** - Former Minister of State, Govt of India.
+11. **Sunil Dutt** - Former Actor and Politician.
+12. **Anshul Raj** - Advocate 
 
 Facilities & Amenities
 ----------------------
@@ -46,12 +48,3 @@ Contact Info (Verified)
 - **Warden:** Dr. Akhilesh Kumar Gupta
 - **Phone:** 8877942124
 - **Location:** Patna Science College Campus, Ashok Raj Path, Patna - 800005.
-
-
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/scholarxx7/CavendishHouse.git
-git push -u origin main
