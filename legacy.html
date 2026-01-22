@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy & History | Cavendish Hostel</title>
+    <meta name="description"
+        content="Explore the rich history and timeline of Cavendish Hostel, Patna Science College, established in 1928.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 text-white shadow-xl sticky top-0 z-50 border-b-4 border-yellow-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <div class="bg-yellow-500 p-2 rounded mr-3">
+                            <i data-lucide="building-2" class="h-6 w-6 text-slate-900"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-xl tracking-wide leading-tight">Cavendish House</span>
+                            <span class="text-xs text-gray-400 uppercase tracking-wider">Patna Science College</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8 text-sm font-semibold tracking-wide">
+                    <a href="index.html" class="hover:text-yellow-400 transition-colors">HOME</a>
+                    <a href="alumni.html" class="hover:text-yellow-400 transition-colors">ALUMNI</a>
+                    <a href="legacy.html" class="text-yellow-500 hover:text-yellow-400 transition-colors">LEGACY</a>
+                    <a href="index.html#amenities" class="hover:text-yellow-400 transition-colors">FACILITIES</a>
+                    <a href="index.html#contact"
+                        class="px-4 py-2 bg-yellow-500 text-slate-900 rounded hover:bg-yellow-400 transition-colors">CONTACT</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-white hover:text-yellow-400 focus:outline-none">
+                        <i data-lucide="menu" class="h-8 w-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700">
+            <a href="index.html"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Home</a>
+            <a href="alumni.html"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Alumni</a>
+            <a href="legacy.html"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Legacy</a>
+            <a href="index.html#amenities"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Facilities</a>
+            <a href="index.html#contact"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg min-h-[400px] flex items-center justify-center text-center px-4 relative">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="max-w-4xl relative z-10">
+            <h1 class="text-4xl md:text-6xl font-black text-white mb-4 drop-shadow-lg">
+                A Legacy Etched in <span class="text-yellow-500">Time</span>
+            </h1>
+            <p class="text-xl text-gray-200">The historical journey of Cavendish House since 1928.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-20 px-4">
+
+        <!-- Detailed History -->
+        <section class="max-w-5xl mx-auto mb-20">
+            <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-100">
+                <div class="flex items-center mb-8">
+                    <div class="w-1 h-12 bg-yellow-500 mr-4"></div>
+                    <h2 class="text-3xl font-bold text-slate-900">The Story of Cavendish</h2>
+                </div>
+
+                <div class="prose prose-lg text-gray-600 space-y-6 text-justify">
+                    <p>
+                        Patna Science College was established in 1927 as a premier institution for higher education in
+                        science. To accommodate the brilliant minds flocking to this new center of learning, the need
+                        for state-of-the-art residential facilities was paramount. Thus, <strong>Cavendish
+                            House</strong> was conceived.
+                    </p>
+                    <p>
+                        Named after <strong>Henry Cavendish</strong>, the brilliant British natural philosopher and
+                        scientist known for discovering hydrogen and weighing the Earth, the hostel was designed to
+                        embody the spirit of scientific inquiry. The architecture reflects the colonial style of the
+                        era, characterized by high ceilings, thick walls for natural cooling, and large windows that
+                        allow ample light—symbolizing the enlightenment of knowledge.
+                    </p>
+                    <p>
+                        On <strong>November 15, 1928</strong>, the hostel was officially inaugurated by the then Viceroy
+                        of India, <strong>Lord Irwin</strong>. Since that historic day, Cavendish House has stood as a
+                        silent witness to the changing tides of history, from the pre-independence era to the modern
+                        digital age, all while nurturing generations of scientists, bureaucrats, and leaders.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-16">Historical Timeline</h2>
+
+            <div class="relative wrap overflow-hidden p-4 h-full">
+                <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%">
+                </div>
+
+                <!-- Timeline Item 1 -->
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-l-4 border-yellow-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">1927</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">Foundation of Patna
+                            Science College, setting the stage for a new era of scientific education in Bihar.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-r-4 border-blue-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">Nov 15, 1928</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">
+                            <strong>Inauguration Day.</strong> Cavendish House is officially opened by Viceroy Lord
+                            Irwin, dedicated to the students of Science.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-l-4 border-yellow-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">1940s-50s</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">The Golden Era. The
+                            hostel houses some of the brightest minds who would go on to rebuild independent India's
+                            scientific infrastructure.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-r-4 border-blue-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">1960s-70s</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">The Era of Genius.
+                            Dr. Vashishtha Narayan Singh associated with the college, inspiring a generation of
+                            mathematicians.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-l-4 border-yellow-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">2003</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">Platinum Jubilee
+                            Celebrations of Patna Science College, marking 75 years of excellence.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 6 -->
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                        <h1 class="mx-auto text-white font-semibold text-lg">6</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4 border-r-4 border-blue-500">
+                        <h3 class="mb-2 font-bold text-gray-800 text-xl">Present Day</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600 text-opacity-100">Cavendish House
+                            continues to be a merit-based abode, equipped with modern amenities like Wi-Fi while
+                            preserving its heritage structure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0 text-center md:text-left">
+                <h5 class="text-white font-bold text-lg mb-1">Cavendish Hostel</h5>
+                <p>Patna Science College, Patna University</p>
+                <p class="mt-2 text-xs">Est. 1928 • Heritage Building</p>
+            </div>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="rules.html" class="hover:text-white transition-colors">Rules & Regulations</a>
+                <a href="https://www.patnauniversity.ac.in/" class="hover:text-white transition-colors" target="_blank"
+                    rel="noopener noreferrer">Patna University Official</a>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-xs text-slate-600">
+            &copy; 2026 Cavendish Hostel. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

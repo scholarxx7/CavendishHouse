@@ -1,0 +1,57 @@
+Cavendish Hostel Details & Information
+======================================
+
+History & Heritage
+------------------
+- **Establishment:** The hostel was inaugurated on November 15, 1928.
+- **Inaugurated by:** Lord Irwin (Viceroy of India).
+- **Architecture:** Heritage building with a design conducive to academic pursuits.
+- **Capacity:** Approximately 110 seats.
+- **Room Type:** Predominantly single-seater rooms, ensuring privacy for students.
+
+Notable Alumni of Patna Science College
+---------------------------------------
+(While specific hostel records are historical, these prominent figures are alumni of the college and part of its residential legacy)
+1. **Vashishtha Narayan Singh** - Renowned Mathematician.
+2. **H. C. Verma** - Prominent Physicist and Author.
+3. **Prashant Kishor** - Political Strategist.
+4. **Rajiv Gauba** - Former Cabinet Secretary of India.
+5. **Abhayanand** - Former DGP, Bihar & Educator (Super 30).
+6. **Shatrughan Sinha** - Actor and Politician.
+7. **Sushil Kumar Modi** - Former Deputy Chief Minister of Bihar.
+8. **Tathagat Avatar Tulsi** - Physicist and Child Prodigy.
+9. **Ravindra Kumar Sinha** -  "Dolphin Man of India", Vice-Chancellor.
+10. **Upendra Kushwaha** - Former Minister of State, Govt of India.
+
+Facilities & Amenities
+----------------------
+- **Connectivity:** Free Wi-Fi connectivity in rooms.
+- **Utilities:** 24/7 Electricity and Water supply (with purification).
+- **Recreation:** Common room with LED TV, indoor games.
+- **Sports:** Small playgrounds for cricket/football, badminton courts.
+- **Services:** Modern laundry and ironing facilities available.
+- **Health:** First-aid and emergency ambulance availability.
+- **Environment:** Located near the Ganga bank (Krishna Ghat), offering a serene atmosphere.
+
+Admission & Rules
+-----------------
+- **Eligibility:** Strictly merit-based (Secondary/Intermediate marks).
+- **Criteria:** Academic performance + Co-curriculars (NCC, Sports, Cultural).
+- **Allotment:** Annual basis; renewal depends on yearly academic performance.
+- **Discipline:** High standards of discipline; strict anti-ragging policy.
+- **Fees:** Nominal annual fee (approx ₹3000-4000) excluding mess charges.
+
+Contact Info (Verified)
+-----------------------
+- **Warden:** Dr. Akhilesh Kumar Gupta
+- **Phone:** 8877942124
+- **Location:** Patna Science College Campus, Ashok Raj Path, Patna - 800005.
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/scholarxx7/CavendishHouse.git
+git push -u origin main

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavendish Hostel | Patna Science College</title>
+    <meta name="description"
+        content="Official website for Cavendish Hostel, Patna Science College. A heritage hostel for meritorious science boys offering structured living.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 text-white shadow-xl sticky top-0 z-50 border-b-4 border-yellow-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="bg-yellow-500 p-2 rounded mr-3">
+                        <i data-lucide="building-2" class="h-6 w-6 text-slate-900"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-xl tracking-wide leading-tight">Cavendish House</span>
+                        <span class="text-xs text-gray-400 uppercase tracking-wider">Patna Science College</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8 text-sm font-semibold tracking-wide">
+                    <a href="#home" class="hover:text-yellow-400 transition-colors">HOME</a>
+                    <a href="alumni.html" class="hover:text-yellow-400 transition-colors">ALUMNI</a>
+                    <a href="#about" class="hover:text-yellow-400 transition-colors">LEGACY</a>
+                    <a href="#amenities" class="hover:text-yellow-400 transition-colors">FACILITIES</a>
+                    <a href="#fees" class="hover:text-yellow-400 transition-colors">FEES</a>
+                    <a href="#admission" class="hover:text-yellow-400 transition-colors">ADMISSION</a>
+                    <a href="#contact"
+                        class="px-4 py-2 bg-yellow-500 text-slate-900 rounded hover:bg-yellow-400 transition-colors">CONTACT</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-white hover:text-yellow-400 focus:outline-none">
+                        <i data-lucide="menu" class="h-8 w-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700">
+            <a href="#home"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Home</a>
+            <a href="#about"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Legacy
+                & History</a>
+            <a href="#amenities"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Facilities</a>
+            <a href="#fees"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Fees</a>
+            <a href="#admission"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Admission</a>
+            <a href="#contact"
+                class="block py-3 px-4 text-sm font-medium hover:bg-slate-700 border-l-4 border-transparent hover:border-yellow-500">Contact
+                Warden</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-[700px] flex items-center justify-center text-center px-4 relative">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="max-w-5xl relative z-10">
+            <div
+                class="inline-block px-4 py-1 mb-4 border border-yellow-500 text-yellow-400 rounded-full text-sm font-semibold tracking-wider uppercase bg-black bg-opacity-50">
+                Since 1928 • Patna University
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black text-white mb-6 leading-tight drop-shadow-lg">
+                Excellence Lives <span class="text-yellow-500">Here.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+                Welcome to <strong>Cavendish House</strong>. A heritage hostel for the brightest minds of Patna Science
+                College, located on the serene banks of the Ganga at Krishna Ghat.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-5 justify-center">
+                <a href="#admission"
+                    class="bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-4 px-10 rounded-lg shadow-lg hover:shadow-yellow-500/30 transition-all transform hover:-translate-y-1">
+                    Apply for Admission
+                </a>
+                <a href="#about"
+                    class="bg-white/10 backdrop-blur-md border border-white/30 text-white hover:bg-white hover:text-slate-900 font-bold py-4 px-10 rounded-lg transition-all">
+                    Explore History
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legacy & About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8">
+                    <div>
+                        <a href="legacy.html" class="block group w-fit">
+                            <h4
+                                class="text-yellow-600 font-bold tracking-widest uppercase mb-2 group-hover:text-yellow-500 transition-colors flex items-center">
+                                Our Heritage <i data-lucide="arrow-right"
+                                    class="h-4 w-4 ml-2 opacity-0 group-hover:opacity-100 hover:translate-x-1 transition-all"></i>
+                            </h4>
+                        </a>
+                        <h2 class="text-4xl font-bold text-slate-900 mb-6">A Legacy of Scientific Temper</h2>
+                        <div class="w-20 h-1.5 bg-yellow-500 rounded-full"></div>
+                    </div>
+
+                    <div class="prose prose-lg text-gray-600">
+                        <p>
+                            Named after the illustrious scientist <strong>Henry Cavendish</strong>, our hostel is an
+                            integral part of the historic Patna Science College campus, which was inaugurated by the
+                            Viceroy of India, <strong>Lord Irwin</strong>, on <strong>November 15, 1928</strong>. For
+                            nearly a century, Cavendish House has served as a second home to some of
+                            Bihar's most brilliant scientific minds.
+                        </p>
+                        <p>
+                            We are located at <strong>Krishna Ghat</strong>, offering a tranquil environment conducive
+                            to deep study, just steps away from the holy River Ganga and the college's main
+                            administrative block.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                        <div class="flex items-start">
+                            <i data-lucide="award" class="h-8 w-8 text-yellow-600 mt-1 mr-4 shrink-0"></i>
+                            <div>
+                                <h5 class="font-bold text-slate-900 text-lg">Merit-Based Community</h5>
+                                <p class="text-sm text-gray-600 mt-1">Cavendish House is renowned for hosting
+                                    high-ranking students. Admission is fiercely competitive, often housing the top
+                                    merit holders immediately following the Faraday House allocation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="absolute -top-4 -left-4 w-72 h-72 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+                    </div>
+                    <div
+                        class="absolute -bottom-4 -right-4 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 relative">
+                        <img src="https://images.unsplash.com/photo-1599695668940-0648416d820f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="College Architecture"
+                            class="rounded-2xl shadow-2xl w-full h-64 object-cover transform translate-y-8">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                            alt="Student Life" class="rounded-2xl shadow-2xl w-full h-64 object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="py-20 pattern-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Life at Cavendish</h2>
+                <p class="text-gray-600 text-lg">Beyond basic accommodation, we offer an ecosystem designed for academic
+                    focus and holistic development.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-yellow-500">
+                    <div
+                        class="bg-yellow-50 w-12 h-12 rounded-lg flex items-center justify-center text-yellow-600 mb-4">
+                        <i data-lucide="bed" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Furnished Rooms</h3>
+                    <p class="text-sm text-gray-600">Single and double occupancy rooms equipped with a bed, study table,
+                        chair, and storage for every student.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-blue-500">
+                    <div class="bg-blue-50 w-12 h-12 rounded-lg flex items-center justify-center text-blue-600 mb-4">
+                        <i data-lucide="droplets" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Essential Utilities</h3>
+                    <p class="text-sm text-gray-600">High-speed <strong>Free Wi-Fi</strong>, 24/7 electricity, and
+                        purified RO drinking water supply to ensure
+                        health and comfort.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-green-500">
+                    <div class="bg-green-50 w-12 h-12 rounded-lg flex items-center justify-center text-green-600 mb-4">
+                        <i data-lucide="gamepad-2" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Recreation</h3>
+                    <p class="text-sm text-gray-600">Common room with indoor games, newspapers, and magazines for
+                        relaxation after study hours.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border-t-4 border-purple-500">
+                    <div
+                        class="bg-purple-50 w-12 h-12 rounded-lg flex items-center justify-center text-purple-600 mb-4">
+                        <i data-lucide="dumbbell" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Campus Access</h3>
+                    <p class="text-sm text-gray-600">Direct access to the college Gym, Central Library, and Laboratories
+                        located within walking distance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fees Section -->
+    <section id="fees" class="py-16 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Decorative circles -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-slate-800 opacity-50"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-slate-800 opacity-50"></div>
+
+        <div class="max-w-4xl mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold mb-4">Transparent Fee Structure</h2>
+                <p class="text-gray-400 mb-6">We believe in affordable education for all. Our fee structure is
+                    subsidized to support students from diverse economic backgrounds.</p>
+                <ul class="space-y-3 text-gray-300">
+                    <li class="flex items-center"><i data-lucide="check-circle"
+                            class="h-5 w-5 text-yellow-500 mr-3"></i>Includes lodging charges</li>
+                    <li class="flex items-center"><i data-lucide="check-circle"
+                            class="h-5 w-5 text-yellow-500 mr-3"></i>Includes electricity & water</li>
+                    <li class="flex items-center"><i data-lucide="check-circle"
+                            class="h-5 w-5 text-yellow-500 mr-3"></i>Maintenance & upkeep</li>
+                </ul>
+            </div>
+
+            <div class="md:w-1/2 w-full">
+                <div class="bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl p-1 shadow-2xl">
+                    <div class="bg-slate-900 rounded-xl p-8 text-center h-full">
+                        <span class="text-gray-400 uppercase text-xs font-bold tracking-widest">Semester Fee</span>
+                        <div class="text-5xl font-bold text-white mt-4 mb-2">₹3,400</div>
+                        <span class="text-sm text-yellow-500 font-medium">Per Semester</span>
+
+                        <div class="mt-8 pt-8 border-t border-slate-700">
+                            <p class="text-xs text-gray-500">Note: Mess charges are separate and payable directly to the
+                                mess contractor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distinguished Alumni Section -->
+    <section id="alumni" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h4 class="text-yellow-600 font-bold tracking-widest uppercase mb-2">Our Pride</h4>
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Distinguished Alumni</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Patna Science College has produced visionaries who have
+                    shaped the nation. Students of Cavendish House inhabit the same halls once walked by these legends.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Alumni 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        VS</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">Vashishtha Narayan Singh</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Mathematician</p>
+                        <p class="text-xs text-gray-500 mt-1">Legendary Scholar</p>
+                    </div>
+                </div>
+
+                <!-- Alumni 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        HV</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">H. C. Verma</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Physicist</p>
+                        <p class="text-xs text-gray-500 mt-1">Author & Professor</p>
+                    </div>
+                </div>
+
+                <!-- Alumni 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        PK</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">Prashant Kishor</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Political Strategist</p>
+                        <p class="text-xs text-gray-500 mt-1">Founder, Jan Suraaj</p>
+                    </div>
+                </div>
+
+                <!-- Alumni 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        RG</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">Rajiv Gauba</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Civil Servant</p>
+                        <p class="text-xs text-gray-500 mt-1">Former Cabinet Secretary</p>
+                    </div>
+                </div>
+
+                <!-- Alumni 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        SS</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">Shatrughan Sinha</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Actor & Politician</p>
+                        <p class="text-xs text-gray-500 mt-1">Former Union Minister</p>
+                    </div>
+                </div>
+
+                <!-- Alumni 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex items-center space-x-4">
+                    <div
+                        class="bg-slate-100 rounded-full w-16 h-16 flex items-center justify-center text-slate-500 font-bold text-xl">
+                        SK</div>
+                    <div>
+                        <h3 class="font-bold text-slate-900">Sushil Kumar Modi</h3>
+                        <p class="text-xs text-yellow-600 font-semibold uppercase">Politician</p>
+                        <p class="text-xs text-gray-500 mt-1">Former Dy. CM, Bihar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section id="admission" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">How to Apply</h2>
+                <p class="text-gray-600">Admission is primarily for male students of Science streams (B.Sc).</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+                    </div>
+                    <div
+                        class="relative bg-white p-8 rounded-lg ring-1 ring-gray-900/5 leading-none flex flex-col h-full">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="bg-blue-100 text-blue-600 font-bold w-10 h-10 flex items-center justify-center rounded-full">
+                                1</div>
+                            <h3 class="font-bold text-slate-900 text-lg">Check Eligibility</h3>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            You must be an enrolled student of Patna Science College. Allocation is strictly based on
+                            <strong>Merit Lists</strong> from your Secondary/Intermediate exams.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+                    </div>
+                    <div
+                        class="relative bg-white p-8 rounded-lg ring-1 ring-gray-900/5 leading-none flex flex-col h-full">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="bg-yellow-100 text-yellow-600 font-bold w-10 h-10 flex items-center justify-center rounded-full">
+                                2</div>
+                            <h3 class="font-bold text-slate-900 text-lg">Submit Application</h3>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Collect the hostel application form from the <strong>Principal's Office</strong>. Attach
+                            your mark sheets and proof of admission.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+                    </div>
+                    <div
+                        class="relative bg-white p-8 rounded-lg ring-1 ring-gray-900/5 leading-none flex flex-col h-full">
+                        <div class="flex items-center space-x-4 mb-6">
+                            <div
+                                class="bg-green-100 text-green-600 font-bold w-10 h-10 flex items-center justify-center rounded-full">
+                                3</div>
+                            <h3 class="font-bold text-slate-900 text-lg">Interview & Allotment</h3>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Shortlisted candidates may face a brief interview. Extra weightage is given for NCC, Sports,
+                            and Cultural activities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 p-4 bg-blue-50 border border-blue-100 rounded-lg text-center text-sm text-blue-800">
+                <span class="font-bold">Note for Girls:</span> Female students of Patna Science College should apply to
+                the <strong>G.D.S. Girls Hostel</strong> nearby.
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-slate-50 py-20 border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <!-- Info Side -->
+                <div class="bg-slate-900 text-white p-10 md:w-2/5 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+                        <p class="text-gray-400 mb-8 text-sm">Have questions about seat availability or rules? Contact
+                            the Warden directly.</p>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <i data-lucide="user-check" class="h-5 w-5 text-yellow-500 mt-1 mr-3"></i>
+                                <div>
+                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Warden</h5>
+                                    <p class="font-semibold">Dr. Akhilesh Kumar Gupta</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <i data-lucide="phone-call" class="h-5 w-5 text-yellow-500 mt-1 mr-3"></i>
+                                <div>
+                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Call Us</h5>
+                                    <a href="tel:8877942124" class="font-semibold hover:text-yellow-400">8877942124</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <i data-lucide="map-pin" class="h-5 w-5 text-yellow-500 mt-1 mr-3"></i>
+                                <div>
+                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Location</h5>
+                                    <p class="text-sm text-gray-300">
+                                        Cavendish House,<br>
+                                        Krishna Ghat, Ashok Raj Path,<br>
+                                        Patna Science College,<br>
+                                        Patna - 800005
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <a href="https://www.mappls.com/2qhy1x" target="_blank"
+                            class="flex items-center text-yellow-500 text-sm font-bold hover:text-yellow-400 group">
+                            Open in Maps <i data-lucide="arrow-right"
+                                class="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Form Side -->
+                <div class="p-10 md:w-3/5">
+                    <h3 class="text-xl font-bold text-slate-900 mb-6">Send an Inquiry</h3>
+                    <form
+                        onsubmit="event.preventDefault(); alert('Please call the Warden directly for immediate assistance.');"
+                        class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Full Name</label>
+                            <input type="text"
+                                class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
+                                placeholder="Student Name">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Contact Number</label>
+                            <input type="tel"
+                                class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
+                                placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Message</label>
+                            <textarea rows="4"
+                                class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
+                                placeholder="I am interested in admission for the upcoming session..."></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full text-white bg-slate-900 hover:bg-slate-800 font-bold rounded-lg text-sm px-5 py-3 text-center transition-colors">Submit
+                            Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0 text-center md:text-left">
+                <h5 class="text-white font-bold text-lg mb-1">Cavendish Hostel</h5>
+                <p>Patna Science College, Patna University</p>
+                <p class="mt-2 text-xs">Est. 1928 • Heritage Building</p>
+            </div>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="rules.html" class="hover:text-white transition-colors">Rules & Regulations</a>
+                <a href="https://www.patnauniversity.ac.in/" class="hover:text-white transition-colors" target="_blank"
+                    rel="noopener noreferrer">Patna University Official</a>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-xs text-slate-600">
+            &copy; 2026 Cavendish Hostel. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
