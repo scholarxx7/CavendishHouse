@@ -72,7 +72,10 @@
         ],
         "opens": "00:00",
         "closes": "23:59"
-      }
+      },
+      "sameAs": [
+        "https://www.instagram.com/cavendish.house.hostel"
+      ]
     }
     </script>
 
@@ -511,7 +514,7 @@
                             <div class="flex items-start">
                                 <i data-lucide="user-check" class="h-5 w-5 text-yellow-500 mt-1 mr-3"></i>
                                 <div>
-                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Warden</h5>
+                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Superintendent</h5>
                                     <p class="font-semibold">Dr. Akhilesh Kumar Gupta</p>
                                 </div>
                             </div>
@@ -519,8 +522,9 @@
                             <div class="flex items-start">
                                 <i data-lucide="phone-call" class="h-5 w-5 text-yellow-500 mt-1 mr-3"></i>
                                 <div>
-                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Call Us</h5>
-                                    <a href="tel:8877942124" class="font-semibold hover:text-yellow-400">8877942124</a>
+                                    <h5 class="text-xs text-gray-400 uppercase font-bold">Contact Us</h5>
+                                    <a href="tel:none"
+                                        class="font-semibold hover:text-yellow-400">https://www.instagram.com/cavendish.house.hostel</a>
                                 </div>
                             </div>
 
@@ -552,23 +556,23 @@
                 <div class="p-10 md:w-3/5">
                     <h3 class="text-xl font-bold text-slate-900 mb-6">Send an Inquiry</h3>
                     <form
-                        onsubmit="event.preventDefault(); alert('Please call the Warden directly for immediate assistance.');"
+                        onsubmit="event.preventDefault(); window.location.href='mailto:ipsrajsingh1@gmail.com?subject=' + encodeURIComponent('Cavendish Hostel Inquiry') + '&body=' + encodeURIComponent('Name: ' + this.entry_name.value + '\nPhone: ' + this.entry_phone.value + '\n\nMessage:\n' + this.entry_message.value);"
                         class="space-y-4">
                         <div>
                             <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Full Name</label>
-                            <input type="text"
+                            <input type="text" name="entry_name" required
                                 class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
                                 placeholder="Student Name">
                         </div>
                         <div>
                             <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Contact Number</label>
-                            <input type="tel"
+                            <input type="tel" name="entry_phone" required
                                 class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
                                 placeholder="+91 XXXXX XXXXX">
                         </div>
                         <div>
                             <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Message</label>
-                            <textarea rows="4"
+                            <textarea rows="4" name="entry_message" required
                                 class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-500 focus:border-yellow-500 block p-2.5"
                                 placeholder="I am interested in admission for the upcoming session..."></textarea>
                         </div>
@@ -594,6 +598,13 @@
                 <a href="rules.html" class="hover:text-white transition-colors">Rules & Regulations</a>
                 <a href="https://www.pup.ac.in/" class="hover:text-white transition-colors" target="_blank"
                     rel="noopener noreferrer">Patna University Official</a>
+                <a href="https://www.instagram.com/cavendish.house.hostel"
+                    class="hover:text-white transition-colors flex items-center gap-1.5" target="_blank"
+                    rel="noopener noreferrer me" aria-label="Follow Cavendish Hostel on Instagram"
+                    title="Cavendish House Official Instagram">
+                    <i data-lucide="instagram" class="w-4 h-4"></i>
+                    <span>Instagram</span>
+                </a>
             </div>
         </div>
         <div class="text-center mt-8 text-xs text-slate-600">
